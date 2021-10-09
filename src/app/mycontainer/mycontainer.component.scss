@@ -1,0 +1,67 @@
+.dark{
+     background-color: black;
+    height:2000px;
+  color: beige;
+ width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    right: 0;
+    border-top: 8px solid #222;
+    z-index: 40;
+}
+
+.flexc{
+  display: inline-flex;
+  padding: 20px;
+  border-bottom: 8px solid #222;
+}
+
+.bins{
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.All{
+   margin-left: 7%;
+}
+
+.big{
+    font-size: 34px;
+    margin-left: 10px;
+    font-weight: 570;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.small{
+    font-size: 24px;
+    font-weight: 570;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.our{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+     text-align: left;
+    align-items: center; 
+  
+}
+
+.our video{
+     position: relative;
+     width: 157%;
+    height: 60%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    margin-left: 10%;
+      z-index: -1;
+
+}
+
+.our img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+    height: 300px;
+}
