@@ -1,6 +1,6 @@
 .dark{
      background-color: black;
-    height:2000px;
+    height:117vw;
   color: beige;
  width: 100%;
     margin-top: 50px;
@@ -24,6 +24,7 @@
 
 .All{
    margin-left: 7%;
+   margin-top: 16%;
 }
 
 .big{
@@ -65,3 +66,36 @@
     grid-row: 1/2;
     height: 300px;
 }
+
+
+.urs img{
+    width: 500px;
+}
+
+.our1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+}
+
+
+.our1 video{
+    position: relative;
+    height: 60%;
+    width: 135%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+    margin-top: -150px; 
+   margin-left: 110px;
+
+}
+
+.our1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+    height: 350px;
+}
+
